@@ -13,8 +13,8 @@ import (
 	"github.com/golang/protobuf/ptypes/duration"
 	"github.com/golang/protobuf/ptypes/timestamp"
 	"github.com/golang/protobuf/ptypes/wrappers"
-	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	"github.com/grpc-ecosystem/grpc-gateway/utilities"
+	"github.com/jackami/grpc-gateway/runtime"
+	"github.com/jackami/grpc-gateway/utilities"
 	"google.golang.org/genproto/protobuf/field_mask"
 )
 

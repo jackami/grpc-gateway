@@ -3,7 +3,7 @@
 # You don't have to rebuild these targets by yourself unless you develop
 # grpc-gateway itself.
 
-PKG=github.com/grpc-ecosystem/grpc-gateway
+PKG=github.com/jackami/grpc-gateway
 GO_PLUGIN=bin/protoc-gen-go
 GO_PROTOBUF_REPO=github.com/golang/protobuf
 GO_PLUGIN_PKG=$(GO_PROTOBUF_REPO)/protoc-gen-go
@@ -188,11 +188,11 @@ changelog:
 		-e "CHANGELOG_GITHUB_TOKEN=${CHANGELOG_GITHUB_TOKEN}" \
 		-v "$(PWD):/usr/local/src/your-app" \
 		ferrarimarco/github-changelog-generator:1.14.3 \
-				-u grpc-ecosystem \
+				-u jackami \
 				-p grpc-gateway \
 				--author \
 				--compare-link \
-				--github-site=https://grpc-ecosystem.github.io/grpc-gateway \
+				--github-site=https://jackami.github.io/grpc-gateway \
 				--unreleased-label "**Next release**" \
 				--future-release=v1.5.1
 lint:

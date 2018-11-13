@@ -5,12 +5,12 @@
     "version": "1.0",
     "contact": {
       "name": "gRPC-Gateway project",
-      "url": "https://github.com/grpc-ecosystem/grpc-gateway",
+      "url": "https://github.com/jackami/grpc-gateway",
       "email": "none@example.com"
     },
     "license": {
       "name": "BSD 3-Clause License",
-      "url": "https://github.com/grpc-ecosystem/grpc-gateway/blob/master/LICENSE.txt"
+      "url": "https://github.com/jackami/grpc-gateway/blob/master/LICENSE.txt"
     }
   },
   "schemes": [
@@ -117,7 +117,7 @@
         ],
         "externalDocs": {
           "description": "Find out more Echo",
-          "url": "https://github.com/grpc-ecosystem/grpc-gateway"
+          "url": "https://github.com/jackami/grpc-gateway"
         }
       }
     },
@@ -369,7 +369,7 @@
         "security": [],
         "externalDocs": {
           "description": "Find out more about GetQuery",
-          "url": "https://github.com/grpc-ecosystem/grpc-gateway"
+          "url": "https://github.com/jackami/grpc-gateway"
         }
       }
     },
@@ -1001,7 +1001,7 @@
         ],
         "externalDocs": {
           "description": "Find out more Echo",
-          "url": "https://github.com/grpc-ecosystem/grpc-gateway"
+          "url": "https://github.com/jackami/grpc-gateway"
         }
       },
       "post": {
@@ -1053,7 +1053,7 @@
         ],
         "externalDocs": {
           "description": "Find out more Echo",
-          "url": "https://github.com/grpc-ecosystem/grpc-gateway"
+          "url": "https://github.com/jackami/grpc-gateway"
         }
       }
     },
@@ -1421,7 +1421,7 @@
       "title": "A bit of everything",
       "externalDocs": {
         "description": "Find out more about ABitOfEverything",
-        "url": "https://github.com/grpc-ecosystem/grpc-gateway"
+        "url": "https://github.com/jackami/grpc-gateway"
       },
       "required": [
         "uuid"
@@ -1619,6 +1619,6 @@
   ],
   "externalDocs": {
     "description": "More about gRPC-Gateway",
-    "url": "https://github.com/grpc-ecosystem/grpc-gateway"
+    "url": "https://github.com/jackami/grpc-gateway"
   }
 }
